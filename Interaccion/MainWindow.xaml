@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="lblHolaMundo">Hola mundo!</TextBlock>
+        <TextBlock x:Name="lblHolaMundo"><Run Text="Hola mundo!"/></TextBlock>
         <Button x:Name="btnMiBoton" Width="100" Height="50" Margin="-650,-300,0,0">Botón</Button>
+        <Button x:Name="btnMiSegundoBoton" 
+                Width="100" Height="50" Margin="-350,-300,0,0"
+                Click="BtnMiSegundoBoton_Click">Botón 2</Button>
+        <Button x:Name="btnMiTercerBoton" 
+                Width="100" Height="50" Margin="-650,-150,0,0" Click="BtnMiTercerBoton_Click">Botón 3</Button>
     </Grid>
 </Window>
